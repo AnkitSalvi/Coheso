@@ -1,0 +1,17 @@
+.idea/
+.vscode/
+node_modules/
+build/
+tmp/
+temp/
+build/
+dist/
+yarn.lock
+**/**/*.js
+.env
+.test.ts
+package-lock.json
+newrelic*
+*.log
+deploy.sh
+.pytest_cache/
