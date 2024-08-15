@@ -2,6 +2,10 @@ import express from "express";
 
 const router = express.Router();
 
+import { login } from "../controllers/auth-controller";
+
+import { addRequestTypeForUser } from "../controllers/request-types-controller";
+
 /**
  * @swagger
  *  /api/auth/login:
@@ -31,18 +35,16 @@ const router = express.Router();
 
 //Method to login for a created user
 router.post("/login", async (req, res) => {
-  const body = req.body;
-  const { email, password } = body;
-  let response, statusCode;
-  const loginInput = {
-    email,
-    password,
-  };
+  const { email, password } = req.body;
 
-  //TODO: Validations to be done
-  //   const isValidInput = await Validation.isValidLoginInput(loginInput);
+  // Assuming login function is imported
+  const user = login(email, password);
 
-  res.status(200).send("Kaisan ba");
+  if (!user) {
+    return res.status(401).send("Invalid email or password");
+  }
+
+  res.status(200).json({ ...user, isLogin: true });
 });
 
 export default router;

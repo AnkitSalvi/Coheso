@@ -1,0 +1,118 @@
+{
+  "requestTypes": [
+    {
+      "id": "07422dc6-ee75-415f-aceb-100e0b0f53bb",
+      "requestType": "aD",
+      "purpose": "SADS",
+      "requestTypeOwner": "ankitsalvi233@gmail.com",
+      "informationToCollect": [
+        {
+          "label": "dsad",
+          "type": "text",
+          "required": true
+        }
+      ],
+      "createdAt": "2024-08-15T14:11:45.178Z"
+    },
+    {
+      "id": "524aae90-e1ca-4662-a465-80a647c6d3bd",
+      "requestType": "ASDSAD",
+      "purpose": "A",
+      "requestTypeOwner": "ankitsalvi233@gmail.com",
+      "informationToCollect": [
+        {
+          "label": "dsad",
+          "type": "text",
+          "required": true
+        }
+      ],
+      "createdAt": "2024-08-15T14:12:24.260Z"
+    },
+    {
+      "id": "b3375c22-49b7-45f0-944c-34d6882680a9",
+      "requestType": "Testing",
+      "purpose": "sdasd",
+      "requestTypeOwner": "ankitsalvi233@gmail.com",
+      "informationToCollect": [],
+      "createdAt": "2024-08-15T14:08:24.318Z"
+    },
+    {
+      "id": "eedac6a3-a7ab-4643-afd5-1ffea1749d55",
+      "requestType": "sdsad",
+      "purpose": "sadasd",
+      "requestTypeOwner": "ankitsalvi233@gmail.com",
+      "informationToCollect": [
+        {
+          "label": "dasdas",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "dasd",
+          "type": "text",
+          "required": false
+        },
+        {
+          "label": "Test",
+          "type": "number",
+          "required": true
+        }
+      ],
+      "createdAt": "2024-08-15T14:24:31.798Z"
+    },
+    {
+      "id": "df5f53f2-784a-41c6-8f3b-c8b33e49fdf7",
+      "requestType": "asdasd",
+      "purpose": "sadsadsaSa",
+      "requestTypeOwner": "ankitsalvi233@gmail.com",
+      "informationToCollect": [
+        {
+          "label": "adssa",
+          "type": "number",
+          "required": false
+        }
+      ],
+      "createdAt": "2024-08-15T17:00:27.758Z"
+    },
+    {
+      "id": "7807d70a-8f3b-4e66-ae0d-da8e82678ada",
+      "requestType": "Test",
+      "purpose": "asdsa",
+      "requestTypeOwner": "ankitsalvi233@gmail.com",
+      "informationToCollect": [],
+      "createdAt": "2024-08-15T16:48:05.132Z"
+    },
+    {
+      "id": "720935e3-eaef-47d4-a29a-170378587a7d",
+      "requestType": "Ankit",
+      "purpose": "sadsad",
+      "requestTypeOwner": "ankitsalvi233@gmail.com",
+      "informationToCollect": [],
+      "createdAt": "2024-08-15T16:48:10.552Z"
+    },
+    {
+      "id": "81da5a6a-c40e-4be9-b241-99f28892c4f2",
+      "requestType": "Random",
+      "purpose": "sdsa",
+      "requestTypeOwner": "ankitsalvi233@gmail.com",
+      "informationToCollect": [],
+      "createdAt": "2024-08-15T16:48:19.150Z"
+    },
+    {
+      "id": "fcc0d03b-ad8b-4cae-bed7-cada83c056ad",
+      "requestType": "Request 1",
+      "purpose": "sadasd",
+      "requestTypeOwner": "ankitsalvi233@gmail.com",
+      "informationToCollect": [],
+      "createdAt": "2024-08-15T16:59:22.922Z"
+    },
+    {
+      "id": "28450b2e-f4af-4f27-ae7f-c5a88893a36e",
+      "requestType": "Request 2",
+      "purpose": "asdsad",
+      "requestTypeOwner": "ankitsalvi233@gmail.com",
+      "informationToCollect": [],
+      "createdAt": "2024-08-15T17:01:48.203Z"
+    }
+  ]
+}

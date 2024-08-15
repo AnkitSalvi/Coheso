@@ -1,0 +1,19 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "name": "John Doe",
+        "email": "ankitsalvi233@gmail.com",
+        "role": "Legal Operations Manager",
+        "password": "123"
+      },
+      {
+        "id": "2",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "role": "Contract Specialist",
+        "password": "123"
+      }
+    ]
+  }
+  
