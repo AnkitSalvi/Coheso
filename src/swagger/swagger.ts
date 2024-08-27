@@ -2,8 +2,8 @@ export const swaggerOptions = {
   swaggerDefinition: {
     openapi: "3.0.1",
     info: {
-      title: "QWLT API",
-      description: "API documentation for QWLT APP",
+      title: "Coheso API",
+      description: "API documentation for Coheso APP",
       contact: {
         name: "My Name",
       },
